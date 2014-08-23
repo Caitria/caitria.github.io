@@ -2,12 +2,149 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: workshop.jpg
 title: Workshops & Instruction
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
 
 ---
+<div class="row">
+	<div class="col-lg-6">
+		<h3>Invest in Your Team's Talent</h3>
+		<p>No one knows your product and services like your team. Workshops and skillbuilding design sprints can help your team learn valuable skills like <strong>user research, analysis, prototyping and validation.</strong></p>
+		<br />
+		<p>Skillbuilding can range from <strong>short workshops</strong> to <strong>10-week design sprints</strong> with entire departments. By focusing on real company challenges and real interaction with users, this type of hands-on education not only helps your employees build skill but moves your products and services forward.</p>
+	</div>
+	<div class="col-lg-6">
+		<br />
+		<img src="img/portfolio/sxsw2.jpg" width="100%"/>
+		<p class="small"><em>SXSW Design Thinking Workshop. Photo Credit: Emi Kolawole</em></p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<br />
+		<br />
+		<h3>Kickstart In-House Innovation</h3>
+	</div>
+	<div class="col-lg-12 text-center">
+		<h5><a href="#">Contact me</a> for pricing and details.</h5>
+	</div>
+</div>
+
+<div class="row">
+	<br />
+	<div class="col-lg-4">
+		<div class="col-lg-12">
+			<h4 class="text-center">Workshops</h4>
+			<hr>
+			<p><em>For teams interested in exposure to user-centered design skills, idea generation, and team-building.</em></p>
+			<br />
+			<ul>
+				<li>1-3 days, on-site</li>
+				<li>Full <a href="#">design process</a> overview</li>
+				<li>Hands-on practice interviewing, analyzing, prototyping with users</li>
+				<li>Focus on needfinding and problem framing</li>
+				<li>Customized worksheets UX toolkits</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="col-lg-12">
+			<h4 class="text-center">Design Sprints</h4>
+			<hr>
+			<p><em>For companies or teams interested in learning skills & strategy while building real product.</em></p>
+			<br />
+			<ul>
+				<li>1-6 week sprints</li>
+				<li>On-site facilitation and skillbuilding workshops</li>
+				<li>Full <a href="#">design process</a> overview</li>
+				<li>Learn by doing - needfinding, user-research, rapid prototyping, success heuristics, product management strategy</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="col-lg-12">
+			<h4 class="text-center">Individual Training</h4>
+			<hr>
+			<p><em>For designers or managers interested in expanding their user-centered toolkit or crafting better product design strategy.</em></p>
+			<br />
+			<ul>
+				<li>Session-based work</li>
+				<li>Material customized to skill-level and needs</li>
+				<li>Methodology skillbuilding or design review</li>
+				<li>Collaboratively work through real challenges to build skills and move your work forward</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<br />
+	<div class="col-lg-12">
+		<br />
+		<h3>Case Study: Design Leadership - Grand Hyatt SF</h3>
+		<br />
+	</div>
+	<div class="col-lg-6">
+		<p>As part of a joint project between Stanford University's d.school and Hyatt Hotels, I co-led a 10 week design sprint with the management team of the Grand Hyatt, San Francisco.</p>
+		<br />
+		<p>We started with a short workshop of design skills, then launched into an innovation cycle. The hotel team performed <strong>interviews, analysis, insight generation, prototype validation</strong>, and <strong>scaling activities.</strong></p>
+		<br />
+		<p>The 'prototype' raised arrival process approval ratings 30% in one month. At its height, the sprint involved over 200 employees and guests in prototype validation.</p>
+	</div>
+	<div class="col-lg-6">
+		<iframe src="//player.vimeo.com/video/103659461" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/103659461">Design Sprint - Grand Hyatt SF</a> from <a href="http://vimeo.com/user27023385">Caitria O&#039;Neill</a>.</p>
+	</div>
+</div>
+
+
+<div class="row">
+	<br />
+	<div class="col-lg-12">
+		<br />
+		<h3>Case Study: Mapping Breast Cancer Care</h3>
+		<br />
+	</div>
+	<div class="col-lg-6">
+		<p>Working with illness can be hard on both the user and interviewer. Partnering with Stanford's d.school, I taught <strong>techniques for 'crisis-moment' interviewing</strong> and <strong>prototyping</strong> to system stakeholders for <strong>Breast Cancer Connections</strong> of Palo Alto . I helped the team frame strong insights to inform innovation within the organization. </p>
+		<br />
+		<p>Finally, I facilitated a design workshop for Breast Cancer Connections, patient, family-member and medical stakeholders. Together, we mapped the local system of care and used the gaps to explore potential new services. </p>
+	</div>
+	<div class="col-lg-6">
+		<img src="img/portfolio/whiteboard.jpg" width="100%"/>
+	</div>
+</div>
+
+<div class="row">
+	<br />
+	<div class="col-lg-12">
+		<br />
+		<h3>Workshop and Sprint Artifacts</h3>
+		<br />
+	</div>
+	<div class="col-lg-6">
+		<h5>Custom Toolkits</h5>
+		<br/>
+		<iframe src="//www.slideshare.net/slideshow/embed_code/38133783" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px">  </div>
+	</div>
+	<div class="col-lg-6">
+		<h5>Carefully Crafted Workshops</h5>
+		<br />
+		<img src="img/portfolio/outline.png" width="100%"/>
+	</div>
+</div>
+
+<div class="row">
+	<br/>
+	<div class="col-lg-6">
+		<h5>Gorgeous Learning Experiences</h5>
+		<br/>
+		<iframe src="//www.slideshare.net/slideshow/embed_code/34497712" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>
+	</div>
+	<div class="col-lg-6">
+		<h5>Real Work, Real Progress</h5>
+		<br />
+		<img src="img/portfolio/work.png" width="100%"/>
+	</div>
+</div>

@@ -17,6 +17,7 @@ p.small {
     text-align: justify;
 }
 
+
 a,
 a:hover,
 a:focus,
@@ -43,13 +44,14 @@ h6 {
     font-weight: 600;
 }
 
-h2.light {
+h2,h3.light {
     color: #{{ site.color.primary}};
 }
 
-h3.light {
-    color: #{{ site.color.primary}};
+h2,h3,h4.dark {
+    color: #{{ site.color.secondary-dark}};
 }
+
 
 hr.star-light,
 hr.star-primary {
@@ -140,7 +142,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -154,7 +156,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 2px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -212,6 +214,11 @@ section.success {
 #about {
     background-color: #{{ site.color.primary }};
 }
+
+#about p {
+    color: #{{ site.color.primary}};
+}
+
 #portfolio{
     background-color: #{{ site.color.quaternary }};
 }
@@ -219,18 +226,54 @@ section.success {
 #contact {
     background-color: #{{ site.color.primary }};
 }
+
+#contact hr{
+    color: #{{ site.color.secondary-dark }};
+}
+
 .panel {
     background-color: #{{ site.color.quaternary }} ;
     padding: 20px;
-    color: #fff;
+    color: #{{ site.color.primary }};
+}
 
-    img{
-        padding: 10px;
-    }
+.panel li {
+    font-size: 15px;
+    line-height: 6px;
+}
 
-    p {
-        font-size: 12px;
-    }
+.panel h4 {
+    margin-bottom: 10px;
+}
+
+.panel p {
+    color: #{{ site.color.primary}};
+}
+
+.panel-white {
+    background-color: #{{ site.color.primary }} ;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    border-style: dashed;
+    border-color: #{{ site.color.secondary }};
+    border-radius: 8px;
+    vertical-align: middle;
+}
+
+.panel-white img {
+    vertical-align: middle;
+    max-height: 100px;
+    max-width: 120px;
+    margin: 15px;
+}
+
+.panel-white h3 {
+    color: #{{ site.color.secondary }};
+}
+
+#portfolio h2 {
+    color: #{{ site.color.primary }};
 }
 
 #portfolio .portfolio-item {
@@ -291,6 +334,14 @@ section.success {
     }
 }
 
+.btn-success {
+    background-color: #{{ site.color.quaternary }};
+    color: #fff;
+}
+
+.btn-success a:hover {
+    background-color: #{{ site.color.secondary-dark }};
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #{{ site.color.secondary-dark }};
@@ -378,8 +429,9 @@ footer {
     color: background-color: #{{ site.color.primary }};;
 }
 
-footer h3 {
+footer h3,p,li{
     margin-bottom: 30px;
+    color: #{{ site.color.primary }};
 }
 
 footer .footer-above {
@@ -452,43 +504,38 @@ footer .footer-below {
     margin: 0;
     font-size: 3em;
     text-align: center;
+    color: #{{ site.color.secondary}};
+}
+
+.portfolio-modal .modal-content h4 {
+    line-height: 20px;
 }
 
 .portfolio-modal .modal-content p {
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     text-align: left;
-    display: inline;
-    margin-bottom: 15px;
+    color: #{{ site.color.secondary-dark }};
 }
 
-.portfolio-modal .modal-content img.big {
-    margin-bottom: 25px;
-    display: inline-block;
-    max-width: 500px;
-    float: left;
-    margin-right: 30px;
-    margin-left: 0;
+.portfolio-modal .modal-content p strong {
+    font-weight: 800;
+    color: #{{ site.color.secondary}};
 }
 
-.portfolio-modal .modal-content img.big-right {
-    margin-bottom: 25px;
-    display: inline-block;
-    max-width: 350px;
-    float: right;
-    margin-right: 0;
-    margin-top: 25px;
-    margin-left: 25px;
-    vertical-align: center;
+.portfolio-modal .modal-content p.small {
+    font-size: 16px;
+    text-align: justify;
 }
 
-@media(max-width:480px) {
-    .portfolio-modal .modal-content img.big-right {
-        max-width: 100%;
-        margin-left: 0px;
-        float: none;
+.portfolio-modal .modal-content li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #{{ site.color.secondary-dark }};
+    line-height: 28px;
 }
+
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;

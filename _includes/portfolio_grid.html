@@ -10,18 +10,37 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <h3 class="text-center light">{{ post.title }}</h3>
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="col-sm-12 text-center">
+                            <h3 class="text-center light">{{ post.title }}</h3>
+                            <br/>
+                        </div>
+                        <div class="col-sm-12 portfolio-item">
+                            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
+                                <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            </a>
+                        </div>
                     </div>
                 {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 panel-white text-center">
+                    <h3>Press & Awards</h3>
+                    <br />
+                    <div class="row">
+                        <a href="https://www.ted.com/talks/caitria_and_morgan_o_neill_how_to_step_up_in_the_face_of_disaster"><div class="col-lg-2"><img src="img/logos/ted.png" width="100%"/></div></a>
+                        <a href="http://dschool.stanford.edu/fellowships/2014/06/20/caitria-oneill-design-for-the-weary/"><div class="col-lg-2"><img src="img/logos/dschool.png" width="100%"/></div></a>
+                        <a href="http://www.fastcompany.com/3014806/recoversorg-is-making-donations-more-efficient"><div class="col-lg-2"><img src="img/logos/fastco.png" width="100%"/></div></a>
+                        <a href="http://www.forbes.com/forbes/2012/0716/leaderboard-brian-want-fitocracy-recovers-carter-cleveland-jenkins-up-comers.html"><div class="col-lg-2"><img src="img/logos/forbes.png" width="100%"/></div></a>
+                        <a href="http://web.mit.edu/mitpsc/pressroom/beyond-the-infinite/online/fall12/recovers.html"><div class="col-lg-2"><img src="img/logos/mit.png" width="100%"/></div></a>
+                        <a href="http://www.whitehouse.gov/champions/civic-hacking-and-open-government/caitria-o%E2%80%99neill"><div class="col-lg-2"><img src="img/logos/whouse.png" width="100%"/></div></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
