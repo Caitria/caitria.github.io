@@ -265,7 +265,8 @@ section.success {
     vertical-align: middle;
     max-height: 100px;
     max-width: 120px;
-    margin: 15px;
+    padding: 8px;
+    text-align: center;
 }
 
 .panel-white h3 {
