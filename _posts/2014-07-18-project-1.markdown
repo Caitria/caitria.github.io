@@ -9,7 +9,7 @@ alt: image-alt
 <div class="row">
 	<div class="col-lg-12">
 		<h3>Do you need 'design' help?</h3>
-		<p>Want to improve an existing product or service? Been told you need to 'get to know your users'? Not sure how to guage what your users like and dislike? Do you have an idea, but no clue where to start?</p>
+		<p>Want to improve an existing product or service? Been told you need to 'get to know your users'? Not sure how to gauge what your users like and dislike? Do you have an idea, but no clue where to start?</p>
 		<br/>
 		<p>Yep - it sounds like you could use some help with user research, conceptual design, or UX strategy.</p>
 		<br />
