@@ -1,20 +1,416 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="home">
+<head>
 
-  <h1>Posts</h1>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <title>Caitria UX</title>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</div>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Caitria O'Neill</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h4>Research &#183; Design &#183; Workshops</h4>
+                <h1 id="homeHeading">USER EXPERIENCE</h1>
+                <hr>
+                <p>Great products and experiences are designed by people who understand customer needs and motivations.  Work with me to <b>measure and re-imagine your products from the user's perspective, </b>through research, design and workshops.</p>
+                <a href="mailto:caitria@pocketknife.io" class="btn btn-primary btn-xl page-scroll">Contact for Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="row text-center">
+            <h2>At Your Service</h2>
+        </div>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Research</h3>
+                        <p class="text-muted"> Answer crucial questions. From stakeholder identification & needfinding, to participatory design and usability testing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Design</h3>
+                        <p class="text-muted">App usability overhauls, rapid prototyping, and new product design. Navigation/info-architecture design + testing. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Workshops</h3>
+                        <p class="text-muted">Design sprint moderation or creative workshops. UX skill trainings, design thinking methodology. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1 class="section-heading">Hi, I'm Caitria.</h1>
+                    <hr class="light">
+                    <p style="text-align: left;"> I've worked with organizations like Facebook, The World Bank, The Lean Startup, and Outset Medical. My work spans from ethnography, to iterative design, to skill-building workshops with companies and non-profits.</p>
+                    <p style="text-align: left;">I was previously a UX Researcher at Facebook, fellow + adjunct at Stanford's d.school (Hasso Plattner Institute of Design), and co-founder/CEO of Recovers.org. In 2012 I was named a White House 'Champion of Change' for innovation in disaster recovery. My work has been featured by FastCompany, NPR, TED.com, TechCrunch and Bloomberg Businessweek.</p>
+                    <br/>
+                    <br/>
+                    <a href="https://docs.google.com/document/d/1z2OVdz9pc9AOto3e28rIz8Qp3OAorO-5BJJjGQVaqqc/edit?usp=sharing" class="page-scroll btn btn-default btn-xl sr-button" target="_blank">Peruse my CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+       <div class="container">
+            <h1 class="text-center">I Help People With Complex Problems</h1>
+            <br/>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2> <b>European Space Agency</b> - the path to Moon Village </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/esa.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5> WORKSHOP &#183; SKILLS DEVELOPMENT</h5>
+                   <p>I co-designed and moderated a two-day workshop for the European Space Agency's Moon Village Working Group. We brought together 20 leaders from branches across ESA to explore and define the agency's role in the global effort to establish a permanent human presence on the moon. 
+                   </p>
+                   <p>Making a permanent colony on the moon will require technology and partnerships that don't exist yet. In an agency that operates off of tightly defined mission plans, the Moon Village working group was having difficulty navigating the ambiguity. The workshop focused on ways to apply creativity and innovation to the challenge, and re-usable tools/activities to help the group choose and evaluate courses of action. 
+                   </p>
+                </div>
+            </div>  
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2> <b>Facebook</b> - launching a new app for TV</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/fbtv1.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5> RESEARCH &#183; PARTICIPATORY DESIGN</h5>
+                   <p>I was the primary researcher on Facebook's new app for TV and connected devices, launched in February 2017. Before launch I performed ethnographic and market research, participatory design and usability lab sessions to inform the initial design.
+                   </p>
+                   <p>
+                   After the app's launch, I ran surveys on app usability and user experience to inform improvements. Using qualitative lab insights and data from use after the initial launch, we re-designed system navigation and content organization to make the app more intuitive. Both v1 and v2 designs of the app drive significant video watch time.
+                   </p>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2><b>Outset Medical </b>- gamifying hemodialysis</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/outset1.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5> RESEARCH &#183; PARTICIPATORY DESIGN &#183; EDUCATIONAL GAMES </h5>
+                   <p>I led multi-week research and design sprint for Outset Medical's self-operated hemodialysis machine. My challenge was to turn the operating instructions into a self-guided training app - safely training patients to perform their own hemodialysis at home. 
+                   <p>I worked with dialysis training nurses to embed material into interactive games and activities. I performed interviews and tested lowfi prototypes in dialysis clinics and homes in several states. I compiled insights from the research into re-usable design materials for Outset, including stakeholder personas, and value proposition findings for marketing.</p>
+                </div>
+            </div>
+        </div>         
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2> <b>Facebook </b>- simplifying web navigation</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/bookmarks1.png">
+                </div>
+                <br/>
+                <div class="col-lg-8">
+                    <h5> RESEARCH &#183; PARTICIPATORY DESIGN &#183; RANKING </h5>
+                   <p>I was the primary researcher on the 2016 effort to re-design the left-hand column navigation of www.facebook.com. We shipped the first significant, metrics positive changes to navigation on the platform in 10 years. 
+                   <p>
+                   We used card sorts, sketching, paper prototyping, usability testing, and surveying to explore the navigation needs of our users. The new design groups navigation elements in a flexible way that allows the most important navigation elements for each user to rise to the top.
+                   </p>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2> <b>The World Bank</b> - innovation in Uganda and Mongolia </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/c2i1.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5>  WORKSHOP &#183; SKILLS DEVELOPMENT </h5>
+                   <p>I worked with The World Bank on two occasions, to coordinate and moderate workshops in Ulaanbaatar, Mongolia and Entebbe, Uganda. Both workshops brought together a mix of young men and women entrepreneurs to learn innovation skills through hands-on activities. Workshops focused on transferring useful tools and conveying creative mindsets. </p>
+                   <p>We adapted Stanford's Design Thinking methodology to suit existing World Bank programs. Each workshop spanned several days and incorporated experiential learning activities like interviewing and observational fieldwork, design activities, and rapid-prototyping.</p>
+                </div>
+            </div>  
+        </div>   
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2><b>Recovers.org </b>- community powered disaster recovery</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/recovers1.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5> FIELDWORK &#183; RAPID ITERATION &#183; PRODUCT MANAGEMENT</h5>
+                   <p>I co-founded an award winning disaster relief platform in the aftermath of a tornado in my hometown. The platform helps neighbors handle the resources that pour into their communities after disasters. Our software has been recognized internationally for improving the speed and efficiency of local disaster recovery.</p>
+
+                    <p>I spent months in disaster areas, working with survivors to co-design solutions to the problems they faced. I led the initial product design and field-work, and assembled and managed our team of engineers and designers. Our platform helped hundreds of thousands of people connect to local recovery efforts and resources. </p>
+                </div>
+            </div>       
+        </div>
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2> <b>The Lean Startup</b> - brand identity + web design </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/lsc.png">
+                </div>
+                <div class="col-lg-8">
+                    <h5> GRAPHIC DESIGN &#183; MARKETING/BRANDING </h5>
+                   <p>I worked with the Lean Startup's management to develop a brand identity and website for instructional spinoff content, called "The How". Interfacing with the CEO, I developed and winnowed down a number of logo and palette concepts. Once the brand identity was approved, I created additional designs for a simple, editorial website for mobile, tablet, and large screen display sizes.
+                   <p>I  did additional work with The Lean Startup Conference to design their 2014 Conference webpage, including running online design comprehension panels to tune design. </p>
+                </div>
+            </div>  
+        </div>     
+    </section>
+
+<!--   <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>What messy problem are you solving?</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Contact for Quote</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch</h2>
+                    <hr class="primary">
+                    <p>From deep background research to app usability triaging, we're here to help. Ready to get some answers? Just reach out! </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:caitria@pocketknife.io">caitria@pocketknife.io</a></p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
